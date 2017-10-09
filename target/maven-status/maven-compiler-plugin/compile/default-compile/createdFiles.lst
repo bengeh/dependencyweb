@@ -1,0 +1,14 @@
+org/owasp/dependencycheck/FileAPIController.class
+org/owasp/dependencycheck/FileEntity$FileEntityId.class
+org/owasp/dependencycheck/InvalidScanPathException.class
+org/owasp/dependencycheck/ReportGenerator$1.class
+org/owasp/dependencycheck/Application.class
+org/owasp/dependencycheck/FileService.class
+org/owasp/dependencycheck/FileController.class
+org/owasp/dependencycheck/ReportGenerator$Format.class
+org/owasp/dependencycheck/ReportGenerator.class
+org/owasp/dependencycheck/CliParser$ARGUMENT.class
+org/owasp/dependencycheck/CliParser.class
+org/owasp/dependencycheck/FileRepo.class
+org/owasp/dependencycheck/FileModel.class
+org/owasp/dependencycheck/FileEntity.class

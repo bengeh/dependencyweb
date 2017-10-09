@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" type="text/css"
+          href="webjars/bootstrap/3.3.7/css/bootstrap.min.css" />
+
+    <link rel="stylesheet" th:href="@{/css/main.css}"
+          href="../../css/main.css" />
+
+
+    <script type="text/javascript">
+         $(function(){
+            $("#navBar").load("/navBar");
+         });
+     </script>
+</head>
+<body>
+
+    <div class="container-fluid" id="navBar"></div>
+
+    <h1>Upload Status Successful</h1>
+    <div class="starter-template">
+        <h1>
+            <!--<span th:text="'Time taken to load the project: ' + th:text=${time}"></span>-->
+            Time taken to load the project: <div th:text="${session.mySessionAttribute}"></div>
+        </h1>
+    </div>
+
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#buttonForReport').click(function() {
+                $('#spinner').show();
+            });
+        });
+    </script>
+
+
+
+</body>
+</html>
