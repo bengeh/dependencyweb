@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Spring Boot Thymeleaf Hello World Example</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+
+    <link rel="stylesheet" th:href="@{/css/main.css}"
+          href="../../css/main.css" />
+
+
+    <title>About Us</title>
+
+    <script type="text/javascript">
+         $(function(){
+            $("#navBar").load("/navBar");
+         });
+     </script>
+</head>
+<body>
+
+<div class="container-fluid" id="navBar"></div>
+
+<div class="container">
+
+    <div class="starter-template">
+        <h1>Welcome to my dependency checker web application!</h1>
+        <h2>
+            For first time users, the application will take awhile, as it needs to fetch the data from the National Vulnerabilities Database(NVDs).
+            If it is taking some time to load after you have submitted the files, please wait as it normally takes a few minutes to load
+            the data.
+            Thank you for your understanding.
+        </h2>
+    </div>
+
+</div>
+<!-- /.container -->
+
+
+</body>
+</html>
